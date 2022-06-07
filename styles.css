@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+.one {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 48px;
+    padding: 8px 48px 48px;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.bottom-row {
+    display: flex;
+    gap: 4px;
+}
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8
+}
+
+#mountain {
+    width: 400px;
+    height: auto;
+}
+
+#hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8
+}
+
+#hero-sub { 
+    font-size: 18px;
+    color: #e5e7eb
+}
+button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 4px 16px;
+    margin-top: 4px;
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 48px;
+}
+#title {
+    font-size: 36px;
+    font-weight: 800px;
+    color: #1F2937;
+    padding: 16px;
+}
+#images {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.image p {
+    text-align: center;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid  #3882f6;
+    border-radius: 10px;
+}
+
+.three {
+    background-color: #e5e7eb;
+    padding: 48px 100px;
+
+}
+
+.three p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+
+#author {
+    font: revert;
+    text-align: end;
+}
+
+.four {
+    padding: 48px 86px;
+}
+#action {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 32px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right button {
+    border:  2px solid white;
+}
+
+#call {
+    font-size: 18px;
+    font-weight: 800;
+    color: #f9faf8
+}
+
+#click {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#action .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 16px 0px;
+    color: #e5e7eb;
+    text-align: center;
+}
